@@ -18,26 +18,4 @@
 
 ## 🎯 **Hakkımda**
 
-```python
-class DoganKaya:
-    def __init__(self):
-        self.name = "Doğan Kaya"
-        self.username = "dogankayax"
-        self.role = "Python Developer & Security Researcher"
-        self.location = "Türkiye"
-        self.skills = {
-            "languages": ["Python", "JavaScript", "Bash", "HTML/CSS"],
-            "frameworks": ["Django", "Flask", "React"],
-            "tools": ["Git", "Docker", "Linux", "VS Code"],
-            "interests": ["Web Security", "Automation", "Open Source"]
-        }
-    
-    def get_current_focus(self):
-        return "🔥 Şu anda Google Dork araçları ve güvenlik script'leri geliştiriyorum!"
-    
-    def say_hi(self):
-        return "Teşekkürler ziyaretin için! Yeni projelerde görüşmek üzere 🚀"
 
-me = DoganKaya()
-print(me.get_current_focus())
-me.say_hi()
